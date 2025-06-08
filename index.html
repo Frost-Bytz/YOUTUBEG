@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YouTube Helper by Jagjit 🔥</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>YouTube Video Assistant 🎬</h1>
+    <textarea id="videoIdea" placeholder="Enter your video idea..."></textarea>
+
+    <div class="buttons">
+      <button onclick="getResponse('title')">Generate Title</button>
+      <button onclick="getResponse('hashtags')">Generate Hashtags</button>
+      <button onclick="getResponse('description')">Generate Description</button>
+      <button onclick="getResponse('thumbnail')">Thumbnail Text</button>
+    </div>
+
+    <div class="output" id="outputArea">
+      <p>Result will appear here...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
