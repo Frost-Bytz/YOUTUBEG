@@ -2,27 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>YouTube Helper by Jagjit 🔥</title>
+  <title>Jagjit's YouTube Helper 🎬</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>YouTube Video Assistant 🎬</h1>
-    <textarea id="videoIdea" placeholder="Enter your video idea..."></textarea>
-
+    <h1>YouTube Video Assistant 🚀</h1>
+    <textarea id="inputText" placeholder="Enter your video idea..."></textarea>
     <div class="buttons">
-      <button onclick="getResponse('title')">Generate Title</button>
-      <button onclick="getResponse('hashtags')">Generate Hashtags</button>
-      <button onclick="getResponse('description')">Generate Description</button>
-      <button onclick="getResponse('thumbnail')">Thumbnail Text</button>
+      <button onclick="generate('title')">🎯 Title</button>
+      <button onclick="generate('hashtags')">🏷️ Hashtags</button>
+      <button onclick="generate('description')">📝 Description</button>
+      <button onclick="generate('thumbnail')">📸 Thumbnail Text</button>
     </div>
-
-    <div class="output" id="outputArea">
-      <p>Result will appear here...</p>
-    </div>
+    <div class="output" id="output"></div>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
